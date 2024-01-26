@@ -1,0 +1,303 @@
+body {
+    background-image: url("tanticamiontesta.png") ;
+}
+h1 {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    margin-bottom: 40px; 
+}
+#wrapper img{
+    float: right;
+    height: 200px;
+    width: 400px;
+
+}
+#wrapper { 
+    width: 65%;
+    background: bisque;
+    color: #584B53;
+    position: relative;
+    margin: auto;
+    padding: 35px;}
+
+    table {
+    font-size: 14px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 70px; 
+    margin-bottom: 40px;
+}
+
+#primatabella {
+    float: right; 
+    margin-top: 35px;
+}
+
+h3 {
+    color:chocolate;
+    font-size:large;
+    float: left; 
+}
+
+caption {
+    color:chocolate;
+    font-size:large;
+    float: left; 
+}
+
+ td,th {
+     border: 1px solid;
+     padding: 8px;
+ }
+ 
+ h2 {
+     font-size:large;
+     color: #584B53;
+
+ }
+
+ #tasti {
+    border: none;
+    padding: none;
+ }
+
+ #parziale input{
+    text-align: center;
+    width: 60px;
+ }
+ #parziale {
+    border: none;
+    padding: none;
+
+ }
+
+ #finale {
+     color:sienna;
+     font-size:x-large;
+     height: 2em;
+ }
+
+ #finale input {
+    text-align: center;
+    width: 60px;
+ }
+
+ #calcola input {
+     width: 80px; 
+     height: 50px;
+     color: sienna;
+     border-radius: 15px;
+     box-shadow: 4px 4px #584B53
+ }
+
+ #calcola {
+    border: none;
+    padding: none;
+ }
+
+ #azzera0 input {
+    width: 80px; 
+    height: 50px;
+    color: sienna;
+    border-radius: 15px;
+    box-shadow: 4px 4px #584B53
+ }
+
+ #azzera0 {
+    border: none;
+    padding: none;
+ }
+
+ #dati {
+    border: none;
+    padding: none;
+    text-align: left;
+ }
+
+ #nome1 {
+     text-align: center;
+ }
+ #cognome1 {
+    text-align: center;
+}
+#codicefiscale1 {
+    text-align: center;
+}
+ 
+#indirizzomittente {
+    text-align: center;
+}
+
+#numerocivico1 {
+    text-align: center; 
+}
+
+#citta1 {
+    text-align: center; 
+}
+
+ #inserisci1 input {
+    width: 80px; 
+    height: 50px;
+    color: sienna;
+    border-radius: 15px;
+    box-shadow: 4px 4px #584B53;
+}
+
+#inserisci1 {
+   border: none;
+   padding: none;
+}
+
+#nome2 {
+    text-align: center;
+}
+#cognome2 {
+    text-align: center;
+}
+
+#codicefiscale2 {
+   text-align: center;
+}
+
+#indirizzodestinatario {
+   text-align: center;
+}
+
+#numerocivico2 {
+    text-align: center; 
+}
+ #citta2 {
+    text-align: center; 
+ }
+
+#inserisci2 input {
+   width: 80px; 
+   height: 50px;
+   color: sienna;
+   border-radius: 15px;
+   box-shadow: 4px 4px #584B53;
+}
+
+#inserisci2 {
+  border: none;
+  padding: none;
+}
+
+#nomeintestatario {
+    text-align: center;
+}
+
+#cognomeintestatario {
+    text-align:center;
+}
+
+#numerocarta {
+    text-align: center;
+}
+
+#cvv {
+    text-align: center;
+}
+
+#circuito {
+    text-align: center;
+}
+
+#scadenza {
+    text-align: center;
+}
+#esempio{
+    font-size: 15px;
+    line-height: 10px;
+}
+
+#inseriscicarta input {
+    width: 80px; 
+   height: 50px;
+   color: sienna;
+   border-radius: 15px;
+   box-shadow: 4px 4px #584B53;
+}
+
+#inseriscicarta {
+    border: none;
+  padding: none;
+}
+
+#azzera1 input {
+    width: 80px; 
+   height: 50px;
+   color: sienna;
+   border-radius: 15px;
+   box-shadow: 4px 4px #584B53;
+}
+
+#azzera1 {
+    border: none;
+    padding: none;
+}
+
+#azzera2 input {
+    width: 80px; 
+   height: 50px;
+   color: sienna;
+   border-radius: 15px;
+   box-shadow: 4px 4px #584B53;
+}
+
+#azzera2 {
+    border: none;
+    padding: none;
+}
+
+#azzeracarta input {
+    width: 80px; 
+   height: 50px;
+   color: sienna;
+   border-radius: 15px;
+   box-shadow: 4px 4px #584B53; 
+}
+
+#azzeracarta {
+    border: none;
+    padding: none;
+}
+
+#etichetta input {
+    width: 200px; 
+   height: 50px;
+   color: black;
+   font-size: 15px;
+   border-radius: 15px;
+   box-shadow: 4px 4px #582645; 
+   display: block;
+margin: 0 auto;
+
+}
+
+#messaggioinserisci1 {
+    font: bold;
+    color: red;
+
+}
+
+#messaggioinserisci2 {
+    font: bold;
+    color: red;
+
+}
+
+#messaggioinseriscicarta {
+    font: bold;
+    color: red;
+
+}
+
+
+
+
+
+

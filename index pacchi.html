@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <Title> Spedizione Pacchi </Title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css.css" />
+        <script src="codicejs.js"></script>
+    </head>
+    <body>
+   <div id="wrapper">
+       <h1> SPEDIZIONE PACCHI DIMET.  <img src="box.png"> </h1>
+      
+    <h2>Spedisci velocemente il tuo pacco con pochi e semplici click:
+    <ol> <li> Seleziona le dimensioni e calcola il prezzo </li>
+     <li> Inserisci i dati richiesti e conferma con il tasto "inserisci"</li>
+<li> Visualizza la tua etichetta da attaccare sul pacco da spedire</li></ol> 
+    </h2> 
+    
+    <table id="primatabella">    
+    <caption> <strong> Tabella di riferimento</strong> </caption>
+    <tr> <td> </td> <td>PICCOLO</td> <td>MEDIO</td> <td>GRANDE</td></tr>
+    
+    <tr><td>Altezza in cm</td> 
+        <td> fino a 50.00 cm </td> 
+        <td> da 51.00 a 100.00 cm </td>
+         <td> oltre i 100.00 cm</td> 
+         <td id="tasti" > <select id="altezza"> <option value="PICCOLO" selected> PICCOLO</option> <option value="MEDIO"> MEDIO </option> <option value="GRANDE"> GRANDE </option></select> </td>  
+         <td id="parziale"> Costo parziale   € <input type="text" id= "parzialeAL" readonly= "readonly" />  </td></tr>
+    
+    <tr><td>Larghezza in cm</td> 
+        <td> fino a 50.00 cm </td> 
+        <td> da 51.00 a 100.00 cm </td>
+        <td> oltre i 100.00 cm</td>
+         <td id="tasti" > <select id="larghezza"> <option value="PICCOLO" selected>PICCOLO</option> <option value="MEDIO"> MEDIO </option> <option value="GRANDE"> GRANDE </option></select> </td> 
+         <td id="parziale"> Costo parziale   € <input type="text" id= "parzialeLA" readonly= "readonly" />  </td> </tr> 
+    
+    <tr><td>Lunghezza in cm </td> 
+        <td> fino a 50.00 cm </td> 
+        <td> da 51.00 a 100.00 cm </td>
+        <td> oltre i 100.00 cm</td> 
+        <td id="tasti"> <select id="lunghezza"> <option value="PICCOLO" selected>PICCOLO</option> <option value="MEDIO"> MEDIO </option> <option value="GRANDE"> GRANDE </option></select> </td> 
+        <td id="parziale"> Costo parziale   € <input type="text" id= "parzialeLU" readonly= "readonly" /> </td> </tr> 
+
+    <tr><td>Peso in kg</td> 
+        <td> fino a 2.00 kg </td>
+         <td> da 2.10 a 5.00 kg </td> 
+         <td> oltre i 5.00 kg</td> 
+         <td id="tasti">  <select id="peso"> <option value="PICCOLO" selected>PICCOLO</option> <option value="MEDIO"> MEDIO </option> <option value="GRANDE"> GRANDE </option></select> </td> 
+         <td id="parziale">   Costo parziale  € <input type="text" id= "parzialePE" readonly= "readonly" /> </td></tr> 
+
+         <tr id="tasti"> <td id="tasti"> </td></tr>
+         <td id="tasti"> </td>
+         <td id="tasti"> </td>
+         <td id="tasti"> </td>
+         <td id="tasti"> </td>
+         <td id="calcola"> <input type="button" id="calcola" value="Calcola"/> </td> 
+         <td id="finale">  <input type= "text" id= "risultato" readonly= "readonly" />  Costo finale </td> 
+         <td id="azzera0"> <input type="button" id="azzera0" value="Cancella" /> </td>
+         
+</table>
+ 
+<div id="registrazione"> 
+    <table>
+    <h3> <strong> Inserisci dati mittente: </strong> </h3> 
+   <tr><td id="dati"> Nome: </td> <td id="dati"> <input type="text" id="nome1"> </td>  <td id="dati"> Cognome: </td> <td id="dati"> <input type="text" id="cognome1">  <td id="dati"> Codice Fiscale: </td> <td id="dati"> <input type="text" id="codicefiscale1"> </td>  <td id="inserisci1"> <span id="messaggioinserisci1"> </span> </br> <input type="button" id="inserisci1" value="Inserisci" />  </tr>  
+   <tr></td>  <td id="dati"> Via o Piazza: </td> <td id="dati"> <input type="text" id="indirizzomittente"> </td> <td id="dati"> Numero Civico: </td> <td id="dati"> <input type="text" id="numerocivico1"> </td> <td id="dati"> Città: </td> <td id="dati"> <input type="text" id="citta1"> </td>  <td id="azzera1"> <input type="button" id="azzera1" value="Cancella" /> </td></tr>
+    </table>
+
+
+    <table>
+        <h3> <strong> Inserisci dati destinatario: </strong> </h3>
+        <tr><td id="dati"> Nome: </td> <td id="dati"> <input type="text" id="nome2"> </td>  <td id="dati"> Cognome: </td> <td id="dati"> <input type="text" id="cognome2"> </td>  <td id="dati"> Codice Fiscale: </td> <td id="dati"> <input type="text" id="codicefiscale2"> </td> <td id="inserisci2"> <span id="messaggioinserisci2"> </span> </br> <input type="button" id="inserisci2" value="Inserisci" /> </td></tr>  
+        <tr> <td id="dati"> Via o Piazza: </td> <td id="dati"> <input type="text" id="indirizzodestinatario"> </td> <td id="dati"> Numero Civico: </td> <td id="dati"> <input type="text" id="numerocivico2"> </td>  <td id="dati"> Città: </td> <td id="dati"> <input type="text" id="citta2"> </td> <td id="azzera2"> <input type="button" id="azzera2" value="Cancella" /> </td> </tr>
+         </table>
+</div>
+
+
+<div id="pagamento"> 
+        <table>
+       <h3> <strong> Inserisci i dati della tua carta: </strong></h3>
+       <tr><td id="dati"> Nome intestatario: </td> <td id="dati"> <input type="text" id="nomeintestatario"> </td>  <td id="dati"> Cognome intestatario: </td> <td id="dati"> <input type="text" id="cognomeintestatario"></td> <td id="dati"> Circuito: </td> <td id="dati"> <input type="text" id="circuito"> </td>  <td id="inseriscicarta"><span id="messaggioinseriscicarta"> </span> </br> <input type="button" id="inseriscicarta" value="Inserisci" /> </td></tr>  
+       <tr> <td id="dati"> Numero carta: </td> <td id="dati"> <input type="text" id="numerocarta"> </td>  <td id="dati"> Scadenza:  <div id="esempio"> (mm/yy ) </div></td> <td id="dati"> <input type="text" id="scadenza"> </td> <td id="dati"> CVV: </td> <td id="dati"> <input type="text" id="cvv"> </td><td id="azzeracarta"> <input type="button" id="azzeracarta" value="Cancella" /> </td></tr>
+       <table>
+</div>
+
+<div id="etichetta" >  
+    <input type="button" id="etichetta" value= "Visualizza la tua etichetta"/>
+</div>
+
+</div> 
+</body>
+</html>
